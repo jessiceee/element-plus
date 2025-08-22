@@ -24,7 +24,7 @@ const props = {
 
 const loadNode: LoadFunction = (node, resolve) => {
   if (node.level === 0) {
-    return resolve([{ name: 'region' }])
+    return resolve([{ name: '质量管理体系' }])
   }
   if (node.level > 1) return resolve([])
 
